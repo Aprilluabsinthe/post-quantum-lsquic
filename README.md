@@ -1,8 +1,27 @@
 # post-quantum-lsquic all library and build-up
 
-if build with new UNIX
 
-requires:
+## clone the three repositories
+```
+git clone --recursive https://github.com/open-quantum-safe/boringssl.git
+git clone --recursive  https://github.com/litespeedtech/lsquic.git
+git clone --recursive https://github.com/open-quantum-safe/liboqs.git
+```
+
+## change name for CMAKE file
+```
+cd /lsquic/src/
+mv ls-hpack/ lshpack
+```
+
+## build with 
+```
+./build_new.sh 
+```
+
+
+## requires
+if build with new UNIX
 
 ```
 sudo apt-get update
