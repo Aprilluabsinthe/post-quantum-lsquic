@@ -7,13 +7,17 @@ git clone --recursive https://github.com/open-quantum-safe/boringssl.git
 git clone --recursive  https://github.com/litespeedtech/lsquic.git
 git clone --recursive https://github.com/open-quantum-safe/liboqs.git
 ```
+or
+```
+git clone --recursive git@github.com:Aprilluabsinthe/post-quantum-lsquic.git
+```
 
 ## [should check or skip]change name for CMAKE file
 ```
 cd /lsquic/src/
 mv ls-hpack/ lshpack
 ```
-if the name is already lshpack, skip this step
+if the name is already ```lshpack```, skip this step
 
 ## build with 
 ```
