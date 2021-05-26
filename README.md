@@ -8,7 +8,7 @@ git clone --recursive  https://github.com/litespeedtech/lsquic.git
 git clone --recursive https://github.com/open-quantum-safe/liboqs.git
 ```
 
-## [should checl]change name for CMAKE file
+## [should check or skip]change name for CMAKE file
 ```
 cd /lsquic/src/
 mv ls-hpack/ lshpack
